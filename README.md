@@ -1,11 +1,6 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/brand/nori_logo_dark.svg">
-    <img src="docs/brand/nori_logo_light.svg" alt="Nori" width="260">
-  </picture>
+  <img src="docs/brand/nori_header.png" alt="Nori — 고르는 순간부터 놀이처럼. 안드로이드용 에뮬레이터 게임 런처" width="100%">
 </p>
-
-<h3 align="center">고르는 순간부터 놀이처럼 — 안드로이드용 에뮬레이터 게임 런처</h3>
 
 <p align="center">
   <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/jaebogg/Nori?label=%EC%B5%9C%EC%8B%A0%ED%8C%90&color=58A6FF" alt="최신판"></a>
