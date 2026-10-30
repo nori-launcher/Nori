@@ -14,6 +14,7 @@
 </p>
 
 <p align="center">
+  <a href="https://nori-launcher.github.io"><b>🌐 홈페이지</b></a> ·
   <a href="../../releases/latest"><b>⬇ 받기</b></a> ·
   <a href="#시작-안내">시작 안내</a> ·
   <a href="#폴더-준비">폴더 준비</a> ·

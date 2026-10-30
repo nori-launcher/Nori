@@ -14,6 +14,7 @@
 </p>
 
 <p align="center">
+  <a href="https://nori-launcher.github.io/?lang=en"><b>🌐 Website</b></a> ·
   <a href="../../releases/latest"><b>⬇ Download</b></a> ·
   <a href="#getting-started">Getting started</a> ·
   <a href="#folder-layout">Folder layout</a> ·
