@@ -1,0 +1,22 @@
+name: 기능 건의
+description: 노리에 있었으면 하는 것
+title: "[건의] "
+labels: ["건의"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 어떤 기능인가요?
+      placeholder: "목록 스타일에서 출시 연도도 보였으면 좋겠어요."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 왜 필요한가요?
+      description: 어떤 때 불편했는지 적어 주시면 더 잘 맞출 수 있어요.
+  - type: input
+    id: device
+    attributes:
+      label: 쓰는 기기
+      placeholder: "레트로이드 포켓 5"

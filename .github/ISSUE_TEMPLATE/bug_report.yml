@@ -1,0 +1,63 @@
+name: 버그 제보
+description: 노리가 이상하게 움직이거나 꺼질 때
+title: "[버그] "
+labels: ["버그"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        제보해 주셔서 고맙습니다. 아래 칸을 채워 주시면 빨리 고칠 수 있어요.
+  - type: input
+    id: version
+    attributes:
+      label: 노리 버전
+      description: 설정 → 정보에서 볼 수 있어요.
+      placeholder: "0.32.1"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 기기
+      description: 기기 이름과 안드로이드 버전
+      placeholder: "레트로이드 포켓 5, 안드로이드 13"
+    validations:
+      required: true
+  - type: dropdown
+    id: style
+    attributes:
+      label: 화면 스타일
+      options:
+        - 기본
+        - 도트
+        - 휠
+        - 목록
+        - 상관없음 / 모름
+  - type: input
+    id: emulator
+    attributes:
+      label: 관련 기기 · 에뮬레이터
+      description: 게임 실행 문제라면 적어 주세요.
+      placeholder: "PS2 · NetherSX2"
+  - type: textarea
+    id: what
+    attributes:
+      label: 무슨 일이 있었나요?
+      description: 무엇을 눌렀을 때 어떻게 됐는지, 원래는 어떻게 돼야 하는지
+      placeholder: |
+        1. 휠 스타일에서 PS2 게임 목록에 들어감
+        2. 방향키를 꾹 누름
+        3. 표지가 덜컥거림
+    validations:
+      required: true
+  - type: textarea
+    id: crash
+    attributes:
+      label: 오류 기록
+      description: 노리가 꺼졌다가 다시 켤 때 「오류 기록 보내기」가 떴다면 그 내용을 붙여 주세요.
+      render: text
+  - type: textarea
+    id: shots
+    attributes:
+      label: 스크린샷 · 영상
+      description: 있으면 끌어다 놓아 주세요.
