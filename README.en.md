@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/brand/nori_header.png" alt="Nori — an Android emulation frontend for retro handhelds" width="100%">
+  <img src="docs/brand/nori_header_en.png" alt="Nori — an Android emulation frontend for retro handhelds" width="100%">
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/media/nori_roulette.gif" alt="Spinning the wheel hard turns it into a roulette that lands on a random game" width="100%">
+  <img src="docs/media/nori_roulette_en.gif" alt="Spinning the wheel hard turns it into a roulette that lands on a random game" width="100%">
   <br><sub>Spin the wheel hard and it turns into a roulette that picks today's game. Real in-app footage.</sub>
 </p>
 
@@ -37,7 +37,7 @@
 > Please report anything odd in [Issues](../../issues/new/choose) and it will be fixed in the next version.
 
 > [!NOTE]
-> Nori is made by a solo developer in Korea. The app ships in Korean and English, and the screenshots below show the Korean UI.
+> Nori is made by a solo developer in Korea. The app comes in English and Korean and follows your device language.
 > English replies may be a little slow or go through a translator. Thanks for your patience!
 
 ## What is Nori?
@@ -51,12 +51,12 @@
 ### Home — pick up where you left off
 Your most recent game sits in the big tile, one press of A away. Play time for the last 30 days and this week's top game are right there too.
 
-![Home](docs/images/02_home.png)
+![Home](docs/images_en/02_home.png)
 
 ### Browsing — pick a system, pick a game
 Choose a system in the system dock, then a game in the game dock. The game's background and logo fill the screen, and after a moment its preview video starts playing.
 
-![Browsing](docs/images/03_library.png)
+![Browsing](docs/images_en/03_library.png)
 
 ### Four styles
 One tap in Settings changes the whole look, and each style has its own background music.
@@ -68,42 +68,42 @@ One tap in Settings changes the whole look, and each style has its own backgroun
 | **Wheel** | Covers along a half-wheel at the bottom, spun with the stick |
 | **List** | Titles on the left; cover, logo and description on the right |
 
-![Styles](docs/images/04_styles.png)
+![Styles](docs/images_en/04_styles.png)
 
 ### Wheel — spin it hard for a roulette
 Can't decide what to play? Give the wheel a hard spin. Wherever it stops, you get "🎲 This one today!".
 
-![Wheel](docs/images/05_wheel.png)
+![Wheel](docs/images_en/05_wheel.png)
 
 ### List — titles on the left, the story on the right
 Great for big libraries. Tall and wide box art both show large, and long descriptions scroll slowly on their own.
 
-![List](docs/images/06_list.png)
+![List](docs/images_en/06_list.png)
 
 ### Themes and colors
 Day, Night, or By time. Night comes in navy or OLED black, and the accent palette comes in Basic blue or Neon (blue × red). Five bundled fonts plus your own TTF.
 
-![Themes and colors](docs/images/07_colors.png)
+![Themes and colors](docs/images_en/07_colors.png)
 
 ### Achievements and records
 443 built-in achievements (bronze, silver, gold), per-game play time and rankings, and yearly and monthly records. Link your RetroAchievements account and beaten games get a medal.
 
-![Achievements and records](docs/images/08_achievements.png)
+![Achievements and records](docs/images_en/08_achievements.png)
 
 ### Monthly recap
 When a month ends, last month's story plays out one card at a time. A yearly recap shows up at the end of the year.
 
-![Monthly recap](docs/images/09_recap.png)
+![Monthly recap](docs/images_en/09_recap.png)
 
 ### Gamepad-first
 Search by Korean initial consonants or the alphabet, an R2 quick panel (clock, battery, volume, today's play), an L2 button guide and an idle screen. Every button can be remapped in Settings.
 
-![Handy features](docs/images/10_handy.png)
+![Handy features](docs/images_en/10_handy.png)
 
 ### Per-game options
 X opens the menu and Y opens details: favorite, mark as beaten, use a different emulator for just this game, pick box art, logo, background or video yourself, or hide the game.
 
-![Game menu](docs/images/11_game_menu.png)
+![Game menu](docs/images_en/11_game_menu.png)
 
 ---
 
@@ -215,7 +215,7 @@ Roms/
 
 ## Systems and emulators
 
-![Supported systems](docs/images/12_setup.png)
+![Supported systems](docs/images_en/12_setup.png)
 
 | System | Emulators that work out of the box |
 | --- | --- |
