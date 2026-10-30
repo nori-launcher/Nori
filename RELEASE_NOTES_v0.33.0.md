@@ -1,6 +1,6 @@
 # Nori 0.33.0 — gamelist.xml 읽기
 
-ES-DE · EmulationStation · Skraper의 gamelist.xml에 적어 둔 게임 이름과 설명을 노리에서도 그대로 씁니다.
+ES-DE · EmulationStation · Skraper의 gamelist.xml에 적어 둔 게임 이름과 설명을 노리에서도 그대로 씁니다. 목록 테마의 표지 배치도 다듬었습니다.
 
 ## 다운로드
 
@@ -28,6 +28,10 @@ ES-DE · EmulationStation · Skraper의 gamelist.xml에 적어 둔 게임 이름
 **읽는 곳**
 - 설정 → 라이브러리 → 그림 폴더 → 메타데이터에서 **ES-DE 폴더 자체**를 고르면 `downloaded_media`의 그림·영상과 `gamelists/기기/gamelist.xml`의 이름·설명을 함께 읽습니다.
 - 롬 폴더의 기기 폴더(예: `Roms/ps2/gamelist.xml`)에 둔 gamelist.xml도 읽습니다.
+
+**목록 테마 표지 배치**
+- 정방형 표지(게임보이 등)도 세로형처럼 왼쪽에 표지, 오른쪽에 로고를 놓습니다.
+- 위에 표지, 아래에 로고 배치는 슈퍼 패미컴·N64처럼 확실한 가로형 표지에만 씁니다.
 
 ## 알아 두실 점
 
