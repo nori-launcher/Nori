@@ -1,23 +1,39 @@
 <p align="center">
-  <img src="docs/images/01_hero.png" alt="Nori — 고르는 순간부터 놀이처럼" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/brand/nori_logo_dark.svg">
+    <img src="docs/brand/nori_logo_light.svg" alt="Nori" width="260">
+  </picture>
 </p>
 
-<h1 align="center">Nori</h1>
+<h3 align="center">고르는 순간부터 놀이처럼 — 안드로이드용 에뮬레이터 게임 런처</h3>
 
 <p align="center">
-  레트로 게임 기기를 위한 안드로이드 런처(프런트엔드)<br>
-  롬 폴더만 알려 주면 표지·로고·배경·미리보기 영상까지 알아서 꾸며 줍니다.
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/jaebogg/Nori?label=%EC%B5%9C%EC%8B%A0%ED%8C%90&color=58A6FF" alt="최신판"></a>
+  <a href="../../releases"><img src="https://img.shields.io/github/downloads/jaebogg/Nori/total?label=%EB%B0%9B%EC%9D%80%20%EC%88%98&color=FF6FA0" alt="받은 수"></a>
+  <img src="https://img.shields.io/badge/%EB%B2%A0%ED%83%80-%EB%AC%B4%EB%A3%8C-3FB950" alt="베타 무료">
+  <img src="https://img.shields.io/badge/Android-8.0%2B-34A853?logo=android&logoColor=white" alt="Android 8.0+">
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><b>⬇ 최신판 받기</b></a> ·
-  <a href="#설치">설치</a> ·
+  <a href="../../releases/latest"><b>⬇ 받기</b></a> ·
+  <a href="#시작-안내">시작 안내</a> ·
   <a href="#폴더-준비">폴더 준비</a> ·
   <a href="#지원-기기와-에뮬레이터">지원 기기</a> ·
-  <a href="../../issues/new/choose">버그 제보 · 건의</a>
+  <a href="#자주-묻는-질문">자주 묻는 질문</a> ·
+  <a href="../../issues/new/choose">제보 · 건의</a>
 </p>
 
----
+<p align="center">
+  <img src="docs/images/01_hero.png" alt="노리 화면" width="100%">
+</p>
+
+> [!WARNING]
+> 노리는 **런처(프런트엔드)** 입니다. 에뮬레이터가 아니며, **게임 파일과 에뮬레이터는 들어 있지 않습니다.**
+> 쓰려는 에뮬레이터를 따로 설치하고, 본인이 가진 게임으로만 써 주세요.
+
+> [!IMPORTANT]
+> 지금은 **베타 버전**이고 **무료**입니다. 버그가 있을 수 있습니다.
+> 이상한 점은 [이슈](../../issues/new/choose)로 알려 주시면 다음 판에서 고칩니다.
 
 ## 노리는 이런 앱입니다
 
@@ -87,17 +103,43 @@ X는 메뉴, Y는 상세입니다. 즐겨찾기, 클리어 표시, 이 게임만
 
 ---
 
-## 설치
+## 설치와 업데이트
 
 1. [Releases](../../releases/latest)에서 `Nori-버전.apk`를 받습니다.
 2. 기기에서 APK를 엽니다. 「출처를 알 수 없는 앱」 설치를 묻으면 허용합니다.
-3. 노리를 열고 **롬 폴더**를 고릅니다. 메타데이터(그림) 폴더가 따로 있으면 다음 단계에서 고릅니다.
-4. 쓰려는 에뮬레이터를 따로 설치합니다. 기기 독에서 기기를 고른 채 **X**를 누르면 그 기기를 어느 에뮬레이터로 열지 고를 수 있습니다.
 
-> **업데이트:** 새 APK를 덮어 깔면 됩니다. 즐겨찾기·플레이 기록·설정은 그대로 남습니다.
-> 기기를 바꿀 때는 설정 → 데이터 → 「파일로 내보내기」로 옮기세요.
+**새 판이 나오면** 새 APK를 덮어 깔면 됩니다. 즐겨찾기·플레이 기록·설정은 그대로 남습니다.
+[Obtainium](https://github.com/ImranR98/Obtainium)을 쓰시면 새 판이 나올 때 알아서 받아 줍니다.
+
+<p align="center">
+  <a href="http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://app/%7B%22id%22%3A%22app.nori%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fjaebogg%2FNori%22%2C%22author%22%3A%22jaebogg%22%2C%22name%22%3A%22Nori%22%7D">
+    <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png" alt="Obtainium으로 받기" height="55">
+  </a>
+</p>
 
 **필요 사양:** 안드로이드 8.0 이상. 가로 화면에 맞춰 만들었고, 주로 4:3 화면(1280×960)에서 확인했습니다.
+
+## 시작 안내
+
+### 1. 처음 켤 때
+노리를 처음 켜면 짧은 안내가 나옵니다.
+
+1. **시작** — 노리 소개 화면입니다. 아무 단추나 누르면 넘어갑니다.
+2. **롬 폴더** — 게임 파일이 든 폴더를 고릅니다. 안은 `ps2` `psp` `snes`처럼 기기 이름 폴더로 나눠 둡니다. ([폴더 준비](#폴더-준비) 참고)
+3. **메타데이터 폴더** — 표지·로고·배경 그림을 모아 둔 폴더가 있으면 고릅니다. ES-DE를 쓰셨다면 **ES-DE 폴더**를 고르면 그림·영상과 게임 이름·설명까지 그대로 가져옵니다. 없으면 건너뛰어도 됩니다.
+
+> [!TIP]
+> 고른 폴더는 언제든 설정 → 라이브러리 → 그림 폴더에서 바꿀 수 있습니다.
+
+### 2. 처음 켠 다음에 해 두면 좋은 것
+- **에뮬레이터 연결** — 게임 화면의 기기 독에서 기기를 고른 채 **X**를 누르고, 그 기기를 열 에뮬레이터를 고릅니다. 게임이 안 켜지면 먼저 여기를 확인하세요.
+- **빈 그림 채우기** — 설정 → 라이브러리 → **「빈 그림 받기」**를 누르면 ScreenScraper와 libretro 저장소에서 표지·로고·배경·영상·설명을 찾아 롬 옆에 저장합니다.
+- **화면 스타일 고르기** — 설정 → 화면에서 기본·도트·휠·목록 중 하나를 고릅니다. 테마(낮·밤), 색, 글꼴, 글자 크기도 여기 있습니다.
+- **RetroAchievements 연결** — 설정 → 업적에서 계정 이름과 웹 API 키를 넣으면 클리어한 게임에 메달이 붙습니다. 키는 [retroachievements.org/settings](https://retroachievements.org/settings) 아래쪽에 있습니다.
+- **단추 바꾸기** — 닌텐도식 배치(A·B 자리 바꿈)를 원하면 설정 → 패드에서 바꿉니다.
+
+> [!TIP]
+> 기기를 바꿀 때는 설정 → 데이터 → 「파일로 내보내기」로 즐겨찾기·기록·설정을 옮기세요.
 
 ## 폴더 준비
 
@@ -203,6 +245,38 @@ Roms/
 | R2 | 빠른 창 (시계 · 소리 · 오늘) |
 | R3 | 대기 화면 바로 띄우기 |
 | START | 설정 |
+
+## 자주 묻는 질문
+
+<details>
+<summary><b>노리는 무료인가요?</b></summary>
+
+베타 동안은 무료입니다. 1.0 정식판부터는 한 번 결제하면 계속 새 판을 받는 방식으로 바뀔 예정입니다.
+</details>
+
+<details>
+<summary><b>게임이 안 켜져요.</b></summary>
+
+그 기기에 에뮬레이터가 연결돼 있는지 확인하세요. 게임 화면의 기기 독에서 기기를 고른 채 **X**를 누르면 고를 수 있습니다. RetroArch는 쓰려는 코어를 RetroArch 안에서 먼저 받아 두어야 합니다.
+</details>
+
+<details>
+<summary><b>표지가 안 나와요.</b></summary>
+
+그림 이름이 롬 이름과 같은지 확인하세요. 대소문자와 괄호 꼬리표는 무시합니다. 그림이 아예 없으면 설정 → 라이브러리 → 「빈 그림 받기」를 누르세요. 롬 파일 이름이 원래 영어 이름에 가까울수록 잘 찾습니다.
+</details>
+
+<details>
+<summary><b>ES-DE에서 쓰던 그림과 이름을 그대로 쓸 수 있나요?</b></summary>
+
+네. 메타데이터 폴더로 **ES-DE 폴더 자체**를 고르면 `downloaded_media`의 그림·영상과 `gamelists`의 게임 이름·설명을 함께 읽습니다.
+</details>
+
+<details>
+<summary><b>휴대폰에서도 되나요?</b></summary>
+
+됩니다. 가로 화면에 맞춰 만들었고 손가락으로도 쓸 수 있습니다. 다만 패드가 달린 기기에서 가장 편합니다.
+</details>
 
 ## 제보 · 건의
 

@@ -1,46 +1,17 @@
-# Nori 0.33.0 — gamelist.xml 읽기
+ES-DE에서 쓰던 이름과 설명을 그대로. gamelist.xml을 읽고, 목록 테마의 표지 배치를 다듬은 베타 판입니다.
 
-ES-DE · EmulationStation · Skraper의 gamelist.xml에 적어 둔 게임 이름과 설명을 노리에서도 그대로 씁니다. 목록 테마의 표지 배치도 다듬었습니다.
+**바뀐 것**
 
-## 다운로드
+- **게임 이름:** gamelist.xml의 `<name>`에 적힌 이름이 괄호까지 그대로 뜹니다. `Dragon Quest VIII (J-K patch).iso` → 「(한) 드래곤 퀘스트 VIII」. 초성 찾기도 이 이름으로 됩니다.
+- **게임 설명:** gamelist.xml의 `<desc>`가 목록 스타일의 설명 칸에 뜹니다.
+- **ES-DE 폴더 한 번에 읽기:** 메타데이터 폴더로 **ES-DE 폴더 자체**를 고르면 `downloaded_media`의 그림·영상과 `gamelists`의 이름·설명을 함께 가져옵니다. 롬 폴더의 기기 폴더에 둔 gamelist.xml도 읽습니다.
+- **목록 테마 표지 배치:** 정방형 표지(게임보이 등)도 왼쪽 표지·오른쪽 로고로 나란히 놓고, 위아래 배치는 슈퍼 패미컴·N64 같은 확실한 가로형에만 씁니다.
 
-| 파일 | 크기 |
-| --- | --- |
-| `Nori-0.33.0.apk` | 약 11.8MB |
+<img src="https://raw.githubusercontent.com/jaebogg/Nori/main/docs/images/06_list.png" alt="목록 스타일" width="100%">
 
-안드로이드 8.0 이상. 게임 파일과 에뮬레이터는 들어 있지 않습니다.
+> [!NOTE]
+> 메타데이터 폴더로 `downloaded_media`만 골라 두셨다면 그림만 읽습니다. 이름·설명까지 쓰려면 그 위의 ES-DE 폴더로 바꿔 주세요.
+> 롬과 gamelist는 `<path>`의 파일 이름으로 짝짓고, 대소문자와 `(J-K patch)` 같은 괄호는 빼고 맞춥니다.
 
-## 설치
-
-쓰던 노리 위에 덮어 깔면 됩니다. 즐겨찾기·플레이 기록·설정은 그대로 남습니다.
-처음 까시는 분은 저장소 첫 화면의 README를 봐 주세요.
-
-## 바뀌는 것
-
-**게임 이름**
-- gamelist.xml의 `<name>`에 적힌 이름이 괄호까지 그대로 뜹니다.
-  예) `Dragon Quest VIII (J-K patch).iso` → 「(한) 드래곤 퀘스트 VIII」
-- 초성 찾기도 이 이름으로 됩니다.
-
-**게임 설명**
-- gamelist.xml의 `<desc>`가 목록 스타일의 설명 칸에 뜹니다.
-
-**읽는 곳**
-- 설정 → 라이브러리 → 그림 폴더 → 메타데이터에서 **ES-DE 폴더 자체**를 고르면 `downloaded_media`의 그림·영상과 `gamelists/기기/gamelist.xml`의 이름·설명을 함께 읽습니다.
-- 롬 폴더의 기기 폴더(예: `Roms/ps2/gamelist.xml`)에 둔 gamelist.xml도 읽습니다.
-
-**목록 테마 표지 배치**
-- 정방형 표지(게임보이 등)도 세로형처럼 왼쪽에 표지, 오른쪽에 로고를 놓습니다.
-- 위에 표지, 아래에 로고 배치는 슈퍼 패미컴·N64처럼 확실한 가로형 표지에만 씁니다.
-
-## 알아 두실 점
-
-- 롬과 gamelist는 `<path>`의 파일 이름으로 짝짓습니다. 대소문자와 `(J-K patch)` 같은 괄호는 빼고 맞춥니다.
-- 메타데이터 폴더로 `downloaded_media`만 골라 두셨다면 그림만 읽습니다. 이름·설명까지 쓰려면 그 위의 ES-DE 폴더로 바꿔 주세요.
-- 그림 자동 받기와 RetroAchievements 연결은 예전처럼 파일 이름으로 찾습니다.
-
-## 제보
-
-저장소의 Issues 탭에서 「버그 제보」·「기능 건의」 양식으로 남겨 주세요.
-
-제작: 장재복
+**설치:** 아래 `Nori-0.33.0.apk`를 받아 쓰던 노리 위에 덮어 깔면 됩니다. 처음이시면 [시작 안내](https://github.com/jaebogg/Nori#시작-안내)를 봐 주세요.
+버그는 [이슈](https://github.com/jaebogg/Nori/issues/new/choose)로 알려 주세요.
