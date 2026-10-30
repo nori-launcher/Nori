@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/jaebogg/Nori?label=%EC%B5%9C%EC%8B%A0%ED%8C%90&color=58A6FF" alt="최신판"></a>
-  <a href="../../releases"><img src="https://img.shields.io/github/downloads/jaebogg/Nori/total?label=%EB%B0%9B%EC%9D%80%20%EC%88%98&color=FF6FA0" alt="받은 수"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/nori-launcher/Nori?label=%EC%B5%9C%EC%8B%A0%ED%8C%90&color=58A6FF" alt="최신판"></a>
+  <a href="../../releases"><img src="https://img.shields.io/github/downloads/nori-launcher/Nori/total?label=%EB%B0%9B%EC%9D%80%20%EC%88%98&color=FF6FA0" alt="받은 수"></a>
   <img src="https://img.shields.io/badge/%EB%B2%A0%ED%83%80-%EB%AC%B4%EB%A3%8C-3FB950" alt="베타 무료">
   <img src="https://img.shields.io/badge/Android-8.0%2B-34A853?logo=android&logoColor=white" alt="Android 8.0+">
 </p>
@@ -113,7 +113,7 @@ X는 메뉴, Y는 상세입니다. 즐겨찾기, 클리어 표시, 이 게임만
 [Obtainium](https://github.com/ImranR98/Obtainium)을 쓰시면 새 판이 나올 때 알아서 받아 줍니다.
 
 <p align="center">
-  <a href="http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://app/%7B%22id%22%3A%22app.nori%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fjaebogg%2FNori%22%2C%22author%22%3A%22jaebogg%22%2C%22name%22%3A%22Nori%22%7D">
+  <a href="http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://app/%7B%22id%22%3A%22app.nori%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fnori-launcher%2FNori%22%2C%22author%22%3A%22nori-launcher%22%2C%22name%22%3A%22Nori%22%7D">
     <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png" alt="Obtainium으로 받기" height="55">
   </a>
 </p>

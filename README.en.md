@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/jaebogg/Nori?label=latest&color=58A6FF" alt="Latest release"></a>
-  <a href="../../releases"><img src="https://img.shields.io/github/downloads/jaebogg/Nori/total?label=downloads&color=FF6FA0" alt="Downloads"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/nori-launcher/Nori?label=latest&color=58A6FF" alt="Latest release"></a>
+  <a href="../../releases"><img src="https://img.shields.io/github/downloads/nori-launcher/Nori/total?label=downloads&color=FF6FA0" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/beta-free-3FB950" alt="Free beta">
   <img src="https://img.shields.io/badge/Android-8.0%2B-34A853?logo=android&logoColor=white" alt="Android 8.0+">
 </p>
@@ -116,7 +116,7 @@ X opens the menu and Y opens details: favorite, mark as beaten, use a different 
 With [Obtainium](https://github.com/ImranR98/Obtainium) you get new versions automatically.
 
 <p align="center">
-  <a href="http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://app/%7B%22id%22%3A%22app.nori%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fjaebogg%2FNori%22%2C%22author%22%3A%22jaebogg%22%2C%22name%22%3A%22Nori%22%7D">
+  <a href="http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://app/%7B%22id%22%3A%22app.nori%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fnori-launcher%2FNori%22%2C%22author%22%3A%22nori-launcher%22%2C%22name%22%3A%22Nori%22%7D">
     <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="55">
   </a>
 </p>

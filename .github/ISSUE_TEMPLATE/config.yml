@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: 질문하기
-    url: https://github.com/jaebogg/Nori/discussions/categories/q-a
+    url: https://github.com/nori-launcher/Nori/discussions/categories/q-a
     about: 쓰는 법이 궁금하면 토론의 질문 게시판에 남겨 주세요.
   - name: 자유롭게 이야기하기
-    url: https://github.com/jaebogg/Nori/discussions
+    url: https://github.com/nori-launcher/Nori/discussions
     about: 건의, 내 노리 화면 자랑, 그 밖의 이야기는 토론에서.
