@@ -213,7 +213,8 @@ Roms/
 ## 알아 두실 점
 
 - 노리는 게임 파일(롬·바이오스)을 제공하지 않습니다. 본인이 가진 게임으로만 써 주세요.
-- 화면의 기기 로고와 게임 그림의 권리는 각 회사에 있습니다.
+- 기기 로고는 어느 기기의 게임인지 알아보기 위한 표시로만 씁니다. 소니, 닌텐도, 세가, NEC 등 각 회사의 상표이며, 노리는 이 회사들과 관계가 없습니다.
+- 게임 표지·로고·배경 그림의 권리는 각 회사에 있습니다.
 - 같이 넣은 글꼴은 모두 SIL Open Font License 1.1을 따릅니다: [Pretendard](https://github.com/orioncactus/pretendard) · [고운돋움](https://fonts.google.com/specimen/Gowun+Dodum) · [IBM Plex Sans KR](https://fonts.google.com/specimen/IBM+Plex+Sans+KR) · [Jua](https://fonts.google.com/specimen/Jua) · [갈무리](https://github.com/quiple/galmuri).
 - 그림 자동 받기는 [ScreenScraper](https://www.screenscraper.fr)와 [libretro-thumbnails](https://github.com/libretro-thumbnails/libretro-thumbnails)를 씁니다.
 
