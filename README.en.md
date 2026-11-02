@@ -210,9 +210,21 @@ Roms/
 | X68000 | `x68000` `x68k` |
 | PC-98 | `pc98` `pc9801` `pc-98` |
 | MS-DOS | `dos` `msdos` `pc` |
-| Arcade | `arcade` `fbneo` `mame` `neogeo` |
+| Arcade | `arcade` `mame…` `fbneo` `neogeo` `cps` `naomi` `atomiswave` `model2` `model3` `stv` |
 
 </details>
+
+### Arcade folders
+
+The system row shows one Arcade entry. Open it to see a system for each folder, and pick a core for each one.
+
+```
+Roms/arcade/neogeo/kof98.zip     ← Neo Geo (put neogeo.zip in the same folder)
+Roms/arcade/cps/sf2.zip          ← Capcom CPS
+Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo
+```
+
+`Roms/neogeo` works the same way. If everything is directly in `Roms/arcade`, you go straight to the game list. Arcade ROMs are identified by file name, so don't rename them. Download cores in RetroArch first: without the core, RetroArch can freeze without an error.
 
 ## Systems and emulators
 
@@ -296,7 +308,8 @@ Yes. It's designed for landscape and works with touch, but it's most comfortable
 ## Notes
 
 - Nori does not provide any game files (ROMs or BIOS). Please only use games you own.
-- System logos are used only to identify which system a game belongs to. They are trademarks of Sony, Nintendo, Sega, NEC and others, and Nori is not affiliated with these companies.
+- System logos are used only to identify which system a game belongs to. They are trademarks of Sony, Nintendo, Sega, NEC, Capcom, SNK, Sammy, the MAME and FinalBurn Neo projects and others, and Nori is not affiliated with them.
+- Default avatars are from [Microsoft Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji) (MIT License).
 - Box art, logos and backgrounds belong to their respective owners.
 - All bundled fonts are under the SIL Open Font License 1.1: [Pretendard](https://github.com/orioncactus/pretendard) · [Gowun Dodum](https://fonts.google.com/specimen/Gowun+Dodum) · [IBM Plex Sans KR](https://fonts.google.com/specimen/IBM+Plex+Sans+KR) · [Jua](https://fonts.google.com/specimen/Jua) · [Galmuri](https://github.com/quiple/galmuri).
 - Artwork downloads use [ScreenScraper](https://www.screenscraper.fr) and [libretro-thumbnails](https://github.com/libretro-thumbnails/libretro-thumbnails).

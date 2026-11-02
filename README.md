@@ -205,9 +205,21 @@ Roms/
 | X68000 | `x68000` `x68k` |
 | PC-98 | `pc98` `pc9801` `pc-98` |
 | MS-DOS | `dos` `msdos` `pc` |
-| Arcade | `arcade` `fbneo` `mame` `neogeo` |
+| Arcade | `arcade` `mame…` `fbneo` `neogeo` `cps` `naomi` `atomiswave` `model2` `model3` `stv` |
 
 </details>
+
+### 아케이드 폴더
+
+콘솔 줄에는 Arcade 한 칸만 나옵니다. 들어가면 폴더 이름에 따라 콘솔 칸이 나오고, 칸마다 코어를 따로 고를 수 있습니다.
+
+```
+Roms/arcade/neogeo/kof98.zip     ← Neo Geo 칸 (neogeo.zip 도 같은 폴더에)
+Roms/arcade/cps/sf2.zip          ← Capcom CPS 칸
+Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo 칸
+```
+
+`Roms/neogeo`처럼 바로 놓아도 같습니다. `Roms/arcade`에 한꺼번에 넣으면 칸 없이 바로 게임 목록이 나옵니다. 아케이드 롬은 파일 이름으로 게임을 알아보니 이름을 바꾸지 마세요.
 
 ## 지원 기기와 에뮬레이터
 
@@ -227,7 +239,8 @@ Roms/
 | NDS | melonDS |
 | Dreamcast | Redream, Flycast |
 | Saturn | Yaba Sanshiro 2 |
-| 그 밖의 고전기 | RetroArch (코어는 RetroArch 안에서 먼저 받아 두세요) |
+| 아케이드 | RetroArch, MAME4droid, NEO.emu, Flycast |
+| 그 밖의 고전기 | RetroArch (코어는 RetroArch 안에서 먼저 받아 두세요. 코어가 없으면 오류 없이 멈출 수 있습니다) |
 
 - 목록에 없는 에뮬레이터는 「시스템 기본」을 고르면 실행할 때마다 열 앱을 고를 수 있습니다.
 - 게임 하나만 다른 에뮬레이터로 열고 싶으면 게임 메뉴(X) → 「이 게임만 에뮬레이터 바꾸기」.
@@ -291,7 +304,8 @@ Roms/
 ## 알아 두실 점
 
 - 노리는 게임 파일(롬·바이오스)을 제공하지 않습니다. 본인이 가진 게임으로만 써 주세요.
-- 기기 로고는 어느 기기의 게임인지 알아보기 위한 표시로만 씁니다. 소니, 닌텐도, 세가, NEC 등 각 회사의 상표이며, 노리는 이 회사들과 관계가 없습니다.
+- 기기 로고는 어느 기기의 게임인지 알아보기 위한 표시로만 씁니다. 소니, 닌텐도, 세가, NEC, 캡콤, SNK, 사미 등 각 회사와 MAME, FinalBurn Neo 프로젝트의 상표이며, 노리는 이들과 관계가 없습니다.
+- 기본 아바타는 [Microsoft Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji)(MIT License)입니다.
 - 게임 표지·로고·배경 그림의 권리는 각 회사에 있습니다.
 - 같이 넣은 글꼴은 모두 SIL Open Font License 1.1을 따릅니다: [Pretendard](https://github.com/orioncactus/pretendard) · [고운돋움](https://fonts.google.com/specimen/Gowun+Dodum) · [IBM Plex Sans KR](https://fonts.google.com/specimen/IBM+Plex+Sans+KR) · [Jua](https://fonts.google.com/specimen/Jua) · [갈무리](https://github.com/quiple/galmuri).
 - 그림 자동 받기는 [ScreenScraper](https://www.screenscraper.fr)와 [libretro-thumbnails](https://github.com/libretro-thumbnails/libretro-thumbnails)를 씁니다.
