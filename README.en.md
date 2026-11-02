@@ -136,17 +136,17 @@ A short setup runs the first time you open Nori.
 3. **Metadata folder** — if you keep box art, logos and backgrounds in a separate folder, pick it here. Coming from ES-DE? Pick the **ES-DE folder** and Nori brings in your media plus the game names and descriptions. You can skip this step.
 
 > [!TIP]
-> You can change these folders anytime in Settings → Library → Artwork folders.
+> You can change these folders anytime in Settings → Games → Artwork folders.
 
 ### 2. Worth doing next
 - **Set up emulators** — in the system dock, select a system and press **X** to choose which emulator opens it. If a game won't start, check this first.
-- **Fill missing art** — Settings → Library → **Fill missing art** finds box art, logos, backgrounds, videos and descriptions on ScreenScraper and the libretro repository, and saves them next to your ROMs.
-- **Choose a style** — Settings → Appearance: Basic, Pixel, Wheel or List. Theme, colors, fonts and text size are here too.
-- **Link RetroAchievements** — Settings → Achievements: enter your username and Web API key and beaten games get a medal. Find your key near the bottom of [retroachievements.org/settings](https://retroachievements.org/settings).
+- **Fill missing art** — Settings → Games → **Fill missing art** finds box art, logos, backgrounds, videos and descriptions on ScreenScraper and the libretro repository, and saves them next to your ROMs.
+- **Choose a style** — Settings → Appearance → Style: Basic, Pixel, Wheel or List. Theme, colors, fonts and text size are here too.
+- **Link RetroAchievements** — Settings → Profile → Linked services: enter your username and Web API key and beaten games get a medal. Find your key near the bottom of [retroachievements.org/settings](https://retroachievements.org/settings).
 - **Remap buttons** — want a Nintendo-style layout (A and B swapped)? Change it in Settings → Controller.
 
 > [!TIP]
-> Switching devices? Settings → Data → **Export to file** moves your favorites, records and settings.
+> Switching devices? Settings → General → Backup → **Export to file** moves your favorites, records and settings.
 
 ## Folder layout
 
@@ -169,7 +169,7 @@ Roms/
 - Put artwork next to the ROM with the same name, or in folders such as `covers`, `logos`, `fanart` and `videos`.
 - Pick **ES-DE's `downloaded_media` or Skraper's `media` folder** as the metadata folder and Nori reads it as is.
 - Pick the **ES-DE folder itself** and Nori also reads `gamelist.xml` from `gamelists`, so the names you set there (custom or translated titles) and the descriptions show up as they are. A `gamelist.xml` inside a system folder of your ROM folder works too.
-- No artwork? No problem. Settings → Library → **Fill missing art** downloads it for you.
+- No artwork? No problem. Settings → Games → **Fill missing art** downloads it for you.
 - Tags like `(USA)` or `[v1.1]` are hidden from titles. Multi-disc games (`.m3u`) and `.cue`+`.bin` show up as a single entry.
 
 <details>
@@ -282,7 +282,7 @@ Check that the system has an emulator set: in the system dock, select the system
 <details>
 <summary><b>Box art doesn't show up.</b></summary>
 
-Make sure the artwork has the same name as the ROM (case and bracket tags are ignored). If there is no artwork at all, use Settings → Library → **Fill missing art**. It works best when ROM file names are close to the original English titles.
+Make sure the artwork has the same name as the ROM (case and bracket tags are ignored). If there is no artwork at all, use Settings → Games → **Fill missing art**. It works best when ROM file names are close to the original English titles.
 </details>
 
 <details>
