@@ -59,6 +59,11 @@ Choose a system in the system dock, then a game in the game dock. The game's bac
 
 ![Browsing](docs/images_en/03_library.png)
 
+### Grid theme
+Every tile shows a game's background with its logo, so you see many games at once. Even systems with mixed cover shapes stay tidy. Set 3 to 6 tiles per row in Quick settings.
+
+![Grid theme](docs/images_en/grid.png)
+
 ### Four themes
 One tap in Settings changes how you pick games, and each theme has its own background music.
 
@@ -87,7 +92,7 @@ Day, Night, or By time. Night comes in navy or OLED black, and the accent palett
 ![Themes and colors](docs/images_en/07_colors.png)
 
 ### Achievements and records
-443 built-in achievements (bronze, silver, gold), per-game play time and rankings, and yearly and monthly records. Link your RetroAchievements account and beaten games get a medal.
+508 built-in achievements (bronze, silver, gold), per-game play time and rankings, and yearly and monthly records. Link your RetroAchievements account and beaten games get a medal.
 
 ![Achievements and records](docs/images_en/08_achievements.png)
 
