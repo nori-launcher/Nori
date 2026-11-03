@@ -287,7 +287,7 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo
 <details>
 <summary><b>Is Nori free?</b></summary>
 
-Yes, during the beta. From version 1.0 it will become a one-time purchase that includes future updates.
+Yes, it's free.
 </details>
 
 <details>

@@ -283,7 +283,7 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo 칸
 <details>
 <summary><b>노리는 무료인가요?</b></summary>
 
-베타 동안은 무료입니다. 1.0 정식판부터는 한 번 결제하면 계속 새 판을 받는 방식으로 바뀔 예정입니다.
+네, 무료입니다.
 </details>
 
 <details>
