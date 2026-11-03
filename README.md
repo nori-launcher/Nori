@@ -205,6 +205,17 @@ Roms/
 | X68000 | `x68000` `x68k` |
 | PC-98 | `pc98` `pc9801` `pc-98` |
 | MS-DOS | `dos` `msdos` `pc` |
+| Atari 2600 | `atari2600` `a2600` |
+| Atari 7800 | `atari7800` `a7800` |
+| Atari Lynx | `atarilynx` `lynx` |
+| Atari Jaguar | `atarijaguar` `jaguar` |
+| Commodore 64 | `c64` `commodore64` |
+| ZX Spectrum | `zxspectrum` `zx` `spectrum` |
+| 3DO | `3do` |
+| Virtual Boy | `virtualboy` `vb` |
+| ColecoVision | `colecovision` `coleco` |
+| PICO-8 | `pico8` |
+| ScummVM | `scummvm` |
 | Arcade | `arcade` `mame…` `fbneo` `neogeo` `cps` `naomi` `atomiswave` `model2` `model3` `stv` |
 
 </details>
@@ -227,22 +238,28 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo 칸
 
 | 기기 | 바로 연결되는 에뮬레이터 |
 | --- | --- |
-| PS2 | NetherSX2 / AetherSX2 |
-| PS3 | aPS3e, aPS3e Premium |
+| PS2 | NetherSX2 / AetherSX2, ARMSX2, Play!, EmuCoreX |
+| PS3 | aPS3e, aPS3e Premium, EmuCoreC |
 | PSP | PPSSPP, PPSSPP Gold |
 | PS Vita | Vita3K |
-| PS1 | DuckStation |
-| GameCube · Wii | Dolphin |
+| PS1 | DuckStation, ePSXe, FPse, FPseNG, ARMSX1 |
+| GameCube · Wii | Dolphin, Dolphin MMJR |
 | Wii U | Cemu |
 | Switch | Eden, Kenji-NX, Skyline |
-| 3DS | Azahar, Lime3DS |
-| NDS | melonDS |
+| 3DS | Azahar, AzaharPlus, Lime3DS, Citra, Mandarine, Panda3DS |
+| NDS | melonDS, DraStic, WatermelonDS, SeedlessDS, NooDS, SkyEmu |
+| N64 | M64Plus FZ, Mupen64Plus AE |
+| GBA | My Boy!, Pizza Boy GBA, GBA.emu, Linkboy, SkyEmu, NooDS |
+| GB · GBC | My OldBoy!, Pizza Boy GBC, GBC.emu, Linkboy, SkyEmu |
+| FC · SFC | NES.emu, iNES, Snes9x EX+ |
+| MD · SMS · GG | MD.emu, Pizza Boy SC, MasterGear |
 | Dreamcast | Redream, Flycast |
-| Saturn | Yaba Sanshiro 2 |
+| Saturn | Yaba Sanshiro 2, Saturn.emu |
+| PICO-8 | PICO-8, Pixl8, Infinity |
 | 아케이드 | RetroArch, MAME4droid, NEO.emu, Flycast |
 | 그 밖의 고전기 | RetroArch (코어는 RetroArch 안에서 먼저 받아 두세요. 코어가 없으면 오류 없이 멈출 수 있습니다) |
 
-- 목록에 없는 에뮬레이터는 「시스템 기본」을 고르면 실행할 때마다 열 앱을 고를 수 있습니다.
+- 목록에 없는 에뮬레이터는 고르기 창의 「다른 앱 직접 고르기」로 정합니다. 「시스템 기본」은 실행할 때마다 열 앱을 묻습니다.
 - 게임 하나만 다른 에뮬레이터로 열고 싶으면 게임 메뉴(X) → 「이 게임만 에뮬레이터 바꾸기」.
 - 안드로이드 앱(조이플레이, 일반 게임 앱)도 「Android」 묶음에 넣어 같이 띄울 수 있습니다.
 

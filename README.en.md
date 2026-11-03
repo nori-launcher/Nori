@@ -210,6 +210,17 @@ Roms/
 | X68000 | `x68000` `x68k` |
 | PC-98 | `pc98` `pc9801` `pc-98` |
 | MS-DOS | `dos` `msdos` `pc` |
+| Atari 2600 | `atari2600` `a2600` |
+| Atari 7800 | `atari7800` `a7800` |
+| Atari Lynx | `atarilynx` `lynx` |
+| Atari Jaguar | `atarijaguar` `jaguar` |
+| Commodore 64 | `c64` `commodore64` |
+| ZX Spectrum | `zxspectrum` `zx` `spectrum` |
+| 3DO | `3do` |
+| Virtual Boy | `virtualboy` `vb` |
+| ColecoVision | `colecovision` `coleco` |
+| PICO-8 | `pico8` |
+| ScummVM | `scummvm` |
 | Arcade | `arcade` `mame…` `fbneo` `neogeo` `cps` `naomi` `atomiswave` `model2` `model3` `stv` |
 
 </details>
@@ -232,21 +243,27 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo
 
 | System | Emulators that work out of the box |
 | --- | --- |
-| PS2 | NetherSX2 / AetherSX2 |
-| PS3 | aPS3e, aPS3e Premium |
+| PS2 | NetherSX2 / AetherSX2, ARMSX2, Play!, EmuCoreX |
+| PS3 | aPS3e, aPS3e Premium, EmuCoreC |
 | PSP | PPSSPP, PPSSPP Gold |
 | PS Vita | Vita3K |
-| PS1 | DuckStation |
-| GameCube · Wii | Dolphin |
+| PS1 | DuckStation, ePSXe, FPse, FPseNG, ARMSX1 |
+| GameCube · Wii | Dolphin, Dolphin MMJR |
 | Wii U | Cemu |
 | Switch | Eden, Kenji-NX, Skyline |
-| 3DS | Azahar, Lime3DS |
-| NDS | melonDS |
+| 3DS | Azahar, AzaharPlus, Lime3DS, Citra, Mandarine, Panda3DS |
+| NDS | melonDS, DraStic, WatermelonDS, SeedlessDS, NooDS, SkyEmu |
+| N64 | M64Plus FZ, Mupen64Plus AE |
+| GBA | My Boy!, Pizza Boy GBA, GBA.emu, Linkboy, SkyEmu, NooDS |
+| GB · GBC | My OldBoy!, Pizza Boy GBC, GBC.emu, Linkboy, SkyEmu |
+| FC · SFC | NES.emu, iNES, Snes9x EX+ |
+| MD · SMS · GG | MD.emu, Pizza Boy SC, MasterGear |
 | Dreamcast | Redream, Flycast |
-| Saturn | Yaba Sanshiro 2 |
+| Saturn | Yaba Sanshiro 2, Saturn.emu |
+| PICO-8 | PICO-8, Pixl8, Infinity |
 | Other classic systems | RetroArch (download the cores inside RetroArch first) |
 
-- For an emulator that isn't listed, choose "System default" and Android will ask which app to open each time.
+- For an emulator that isn't listed, use "Choose another app" in the picker. "System default" asks which app to open each time.
 - To open just one game with a different emulator: game menu (X) → "Emulator for this game only".
 - Android apps (JoiPlay, regular games) can be added to the "Android" group and launched alongside everything else.
 
