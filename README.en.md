@@ -59,17 +59,17 @@ Choose a system in the system dock, then a game in the game dock. The game's bac
 
 ![Browsing](docs/images_en/03_library.png)
 
-### Four styles
-One tap in Settings changes the whole look, and each style has its own background music.
+### Four themes
+One tap in Settings changes how you pick games, and each theme has its own background music.
 
-| Style | What it looks like |
+| Theme | What it looks like |
 | --- | --- |
 | **Basic** | Clear glass docks, rounded tiles |
-| **Pixel** | Square tiles, hard shadows, Galmuri pixel font |
 | **Wheel** | Covers along a half-wheel at the bottom, spun with the stick |
 | **List** | Titles on the left; cover, logo and description on the right |
+| **Grid** | A background and logo on every tile; tiles per row in Quick settings |
 
-![Styles](docs/images_en/04_styles.png)
+![Themes](docs/images_en/04_styles.png)
 
 ### Wheel — spin it hard for a roulette
 Can't decide what to play? Give the wheel a hard spin. Wherever it stops, you get "🎲 This one today!".
@@ -141,7 +141,7 @@ A short setup runs the first time you open Nori.
 ### 2. Worth doing next
 - **Set up emulators** — in the system dock, select a system and press **X** to choose which emulator opens it. If a game won't start, check this first.
 - **Fill missing art** — Settings → Games → **Fill missing art** finds box art, logos, backgrounds, videos and descriptions on ScreenScraper and the libretro repository, and saves them next to your ROMs.
-- **Choose a style** — Settings → Appearance → Style: Basic, Pixel, Wheel or List. Theme, colors, fonts and text size are here too.
+- **Choose a theme** — Settings → Display → Theme: Basic, Wheel, List or Grid. Day and night, colors, fonts and text size are here too.
 - **Link RetroAchievements** — Settings → Profile → Linked services: enter your username and Web API key and beaten games get a medal. Find your key near the bottom of [retroachievements.org/settings](https://retroachievements.org/settings).
 - **Remap buttons** — want a Nintendo-style layout (A and B swapped)? Change it in Settings → Controller.
 
@@ -160,7 +160,7 @@ Roms/
 │   ├─ Final Fantasy X-logo.png   ← logo
 │   ├─ Final Fantasy X-bg.png     ← background
 │   ├─ Final Fantasy X.mp4        ← preview video
-│   └─ Final Fantasy X.txt        ← description (List style)
+│   └─ Final Fantasy X.txt        ← description (List theme)
 ├─ psp/
 ├─ psx/
 └─ snes/
@@ -325,10 +325,11 @@ Yes. It's designed for landscape and works with touch, but it's most comfortable
 ## Notes
 
 - Nori does not provide any game files (ROMs or BIOS). Please only use games you own.
-- System logos are used only to identify which system a game belongs to. They are trademarks of Sony, Nintendo, Sega, NEC, Capcom, SNK, Sammy, the MAME and FinalBurn Neo projects and others, and Nori is not affiliated with them.
+- System logos are used only to identify which system a game belongs to. They are trademarks of Sony, Nintendo, Sega, NEC, Capcom, SNK, Sammy, Atari, Commodore, Sinclair, Coleco, Lexaloffle, the MAME and FinalBurn Neo projects and others, and Nori is not affiliated with them.
 - Default avatars are from [Microsoft Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji) (MIT License).
 - Box art, logos and backgrounds belong to their respective owners.
-- All bundled fonts are under the SIL Open Font License 1.1: [Pretendard](https://github.com/orioncactus/pretendard) · [Gowun Dodum](https://fonts.google.com/specimen/Gowun+Dodum) · [IBM Plex Sans KR](https://fonts.google.com/specimen/IBM+Plex+Sans+KR) · [Jua](https://fonts.google.com/specimen/Jua) · [Galmuri](https://github.com/quiple/galmuri).
+- The other bundled fonts are under the SIL Open Font License 1.1: [Pretendard](https://github.com/orioncactus/pretendard).
+- MaruBuri is under the NAVER font license: [NAVER fonts](https://hangeul.naver.com/font), © NAVER Corp. © NAVER Cultural Foundation Corp.
 - Artwork downloads use [ScreenScraper](https://www.screenscraper.fr) and [libretro-thumbnails](https://github.com/libretro-thumbnails/libretro-thumbnails).
 
 ---

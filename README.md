@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <img src="docs/brand/nori_header.png" alt="Nori — 고르는 순간부터 놀이처럼. 안드로이드용 에뮬레이터 게임 런처" width="100%">
+  <img src="docs/brand/nori_header.png" alt="Nori — 고르는 순간부터 놀이, 안드로이드용 에뮬레이터 게임 런처" width="100%">
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/nori-launcher/Nori?label=%EC%B5%9C%EC%8B%A0%ED%8C%90&color=58A6FF" alt="최신판"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/nori-launcher/Nori?label=%EC%B5%9C%EC%8B%A0%ED%8C%90&color=58A6FF" alt="최신 버전"></a>
   <a href="../../releases"><img src="https://img.shields.io/github/downloads/nori-launcher/Nori/total?label=%EB%B0%9B%EC%9D%80%20%EC%88%98&color=FF6FA0" alt="받은 수"></a>
   <img src="https://img.shields.io/badge/%EB%B2%A0%ED%83%80-%EB%AC%B4%EB%A3%8C-3FB950" alt="베타 무료">
   <img src="https://img.shields.io/badge/Android-8.0%2B-34A853?logo=android&logoColor=white" alt="Android 8.0+">
@@ -35,7 +35,7 @@
 
 > [!IMPORTANT]
 > 지금은 **베타 버전**이고 **무료**입니다. 버그가 있을 수 있습니다.
-> 이상한 점은 [이슈](../../issues/new/choose)로 알려 주시면 다음 판에서 고칩니다.
+> 이상한 점은 [이슈](../../issues/new/choose)로 알려 주시면 다음 버전에서 고칩니다.
 
 ## 노리는 이런 앱입니다
 
@@ -56,32 +56,32 @@
 
 ![게임 고르기](docs/images/03_library.png)
 
-### 화면 스타일 네 가지
-설정에서 카드 하나만 누르면 화면 전체가 바뀝니다. 스타일마다 어울리는 배경음악도 따로 붙어 있습니다.
+### 테마 네 가지
+설정에서 카드 하나만 누르면 게임 고르는 화면이 바뀝니다. 테마마다 어울리는 배경음악도 따로 붙어 있습니다.
 
-| 스타일 | 특징 |
+| 테마 | 특징 |
 | --- | --- |
-| **기본** | 유리처럼 맑은 독, 둥근 칸 |
-| **도트** | 각진 칸과 딱딱한 그림자, 갈무리 글꼴 |
+| **기본** | 맑은 유리 독, 둥근 칸 |
 | **휠** | 화면 아래 반원 휠에 표지가 늘어서고, 스틱으로 돌려 고름 |
 | **목록** | 왼쪽에 제목 목록, 오른쪽에 표지·로고·게임 설명 |
+| **격자** | 칸마다 게임 배경과 로고, 한 줄 칸 수는 빠른 설정에서 |
 
-![화면 스타일](docs/images/04_styles.png)
+![테마](docs/images/04_styles.png)
 
 ### 휠 — 세게 돌리면 룰렛
 뭘 할지 모르겠는 날엔 휠을 힘껏 돌려 보세요. 멈춘 자리에 「오늘은 이 게임!」이 뜹니다.
 
-![휠 스타일](docs/images/05_wheel.png)
+![휠 테마](docs/images/05_wheel.png)
 
 ### 목록 — 제목은 왼쪽, 이야기는 오른쪽
 게임이 많아도 한눈에 보입니다. 세로형·가로형 표지 모두 크게 보이고, 게임 설명은 길면 저절로 천천히 내려갑니다.
 
-![목록 스타일](docs/images/06_list.png)
+![목록 테마](docs/images/06_list.png)
 
-### 테마와 색
+### 낮·밤 화면과 색
 낮의 놀이터 · 밤의 놀이터 · 시간 따라. 밤 색은 남색과 OLED 블랙 중에 고르고, 색상 팔레트는 기본 파랑과 네온(파랑×빨강)이 있습니다. 글꼴 다섯 가지에 내 TTF 글꼴도 쓸 수 있습니다.
 
-![테마와 색](docs/images/07_colors.png)
+![낮·밤 화면과 색](docs/images/07_colors.png)
 
 ### 업적과 기록
 업적 443개(동·은·금), 게임별 플레이 시간과 순위, 해마다·달마다 기록이 쌓입니다. RetroAchievements 계정을 연결하면 클리어한 게임에 메달이 붙습니다.
@@ -110,8 +110,8 @@ X는 메뉴, Y는 상세입니다. 즐겨찾기, 클리어 표시, 이 게임만
 1. [Releases](../../releases/latest)에서 `Nori-버전.apk`를 받습니다.
 2. 기기에서 APK를 엽니다. 「출처를 알 수 없는 앱」 설치를 묻으면 허용합니다.
 
-**새 판이 나오면** 새 APK를 덮어 깔면 됩니다. 즐겨찾기·플레이 기록·설정은 그대로 남습니다.
-[Obtainium](https://github.com/ImranR98/Obtainium)을 쓰시면 새 판이 나올 때 알아서 받아 줍니다.
+**새 버전이 나오면** 새 APK를 덮어 깔면 됩니다. 즐겨찾기·플레이 기록·설정은 그대로 남습니다.
+[Obtainium](https://github.com/ImranR98/Obtainium)을 쓰시면 새 버전이 나올 때 알아서 받아 줍니다.
 
 <p align="center">
   <a href="http://apps.obtainium.imranr.dev/redirect.html?r=obtainium://app/%7B%22id%22%3A%22app.nori%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fnori-launcher%2FNori%22%2C%22author%22%3A%22nori-launcher%22%2C%22name%22%3A%22Nori%22%7D">
@@ -136,7 +136,7 @@ X는 메뉴, Y는 상세입니다. 즐겨찾기, 클리어 표시, 이 게임만
 ### 2. 처음 켠 다음에 해 두면 좋은 것
 - **에뮬레이터 연결** — 게임 화면의 기기 독에서 기기를 고른 채 **X**를 누르고, 그 기기를 열 에뮬레이터를 고릅니다. 게임이 안 켜지면 먼저 여기를 확인하세요.
 - **빈 그림 채우기** — 설정 → 게임 → **「빈 그림 받기」**를 누르면 ScreenScraper와 libretro 저장소에서 표지·로고·배경·영상·설명을 찾아 롬 옆에 저장합니다.
-- **화면 스타일 고르기** — 설정 → 꾸미기 → 스타일에서 기본·도트·휠·목록 중 하나를 고릅니다. 테마(낮·밤), 색, 글꼴, 글자 크기도 여기 있습니다.
+- **테마 고르기** — 설정 → 디스플레이 → 테마에서 기본·휠·목록·격자 중 하나를 고릅니다. 낮·밤 화면, 색, 글꼴, 글자 크기도 여기 있습니다.
 - **RetroAchievements 연결** — 설정 → 프로필 → 외부 서비스 연결에서 계정 이름과 웹 API 키를 넣으면 클리어한 게임에 메달이 붙습니다. 키는 [retroachievements.org/settings](https://retroachievements.org/settings) 아래쪽에 있습니다.
 - **단추 바꾸기** — 닌텐도식 배치(A·B 자리 바꿈)를 원하면 설정 → 패드에서 바꿉니다.
 
@@ -155,7 +155,7 @@ Roms/
 │   ├─ Dragon Quest VIII-logo.png   ← 로고
 │   ├─ Dragon Quest VIII-bg.png     ← 배경
 │   ├─ Dragon Quest VIII.mp4        ← 미리보기 영상
-│   └─ Dragon Quest VIII.txt        ← 게임 설명 (목록 스타일)
+│   └─ Dragon Quest VIII.txt        ← 게임 설명 (목록 테마)
 ├─ psp/
 ├─ psx/
 └─ snes/
@@ -321,10 +321,11 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo 칸
 ## 알아 두실 점
 
 - 노리는 게임 파일(롬·바이오스)을 제공하지 않습니다. 본인이 가진 게임으로만 써 주세요.
-- 기기 로고는 어느 기기의 게임인지 알아보기 위한 표시로만 씁니다. 소니, 닌텐도, 세가, NEC, 캡콤, SNK, 사미 등 각 회사와 MAME, FinalBurn Neo 프로젝트의 상표이며, 노리는 이들과 관계가 없습니다.
+- 기기 로고는 어느 기기의 게임인지 알아보기 위한 표시로만 씁니다. 소니, 닌텐도, 세가, NEC, 캡콤, SNK, 사미, 아타리, 코모도어, 싱클레어, 콜레코, Lexaloffle 등 각 회사와 MAME, FinalBurn Neo 프로젝트의 상표이며, 노리는 이들과 관계가 없습니다.
 - 기본 아바타는 [Microsoft Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji)(MIT License)입니다.
 - 게임 표지·로고·배경 그림의 권리는 각 회사에 있습니다.
-- 같이 넣은 글꼴은 모두 SIL Open Font License 1.1을 따릅니다: [Pretendard](https://github.com/orioncactus/pretendard) · [고운돋움](https://fonts.google.com/specimen/Gowun+Dodum) · [IBM Plex Sans KR](https://fonts.google.com/specimen/IBM+Plex+Sans+KR) · [Jua](https://fonts.google.com/specimen/Jua) · [갈무리](https://github.com/quiple/galmuri).
+- 같이 넣은 다른 글꼴은 SIL Open Font License 1.1을 따릅니다: [Pretendard](https://github.com/orioncactus/pretendard).
+- 마루부리는 네이버 글꼴 라이선스를 따릅니다: [네이버 글꼴](https://hangeul.naver.com/font), © NAVER Corp. © NAVER Cultural Foundation Corp.
 - 그림 자동 받기는 [ScreenScraper](https://www.screenscraper.fr)와 [libretro-thumbnails](https://github.com/libretro-thumbnails/libretro-thumbnails)를 씁니다.
 
 ---
