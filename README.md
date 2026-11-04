@@ -46,45 +46,45 @@
 
 ## 둘러보기
 
-### 놀이터 홈 — 켜자마자, 하던 게임으로
+### 홈 — 켜자마자, 하던 게임으로
 가장 최근에 한 게임이 큰 칸에 걸려 있어 A 한 번이면 이어서 합니다. 지난 30일 플레이 시간과 이번 주 1위 게임도 한눈에 보입니다.
 
-![놀이터 홈](docs/images/02_home.png)
+![홈](docs/images/02_home.png)
 
 ### 게임 고르기 — 기기를 고르고, 게임을 고르고
 기기 독에서 기기를, 게임 독에서 게임을 고릅니다. 고른 게임의 배경과 로고가 화면을 가득 채우고, 잠시 머물면 미리보기 영상이 흐릅니다.
 
 ![게임 고르기](docs/images/03_library.png)
 
-### 격자 테마
-칸마다 게임 배경에 로고를 얹어 여러 게임을 한 화면에 보여 줍니다. 표지 모양이 제각각인 기기도 칸이 고르게 정리됩니다. 한 줄 칸 수는 빠른 설정에서 3~6칸으로 바꿉니다.
+### Grid 테마
+칸마다 게임 배경에 로고를 얹어 여러 게임을 한 화면에 보여 줍니다. 표지 모양이 제각각인 기기도 칸이 고르게 정리됩니다. 한 줄 칸 수는 빠른 설정에서 2~6칸으로 바꿉니다.
 
-![격자 테마](docs/images/grid.png)
+![Grid 테마](docs/images/grid.png)
 
 ### 테마 네 가지
 설정에서 카드 하나만 누르면 게임 고르는 화면이 바뀝니다. 테마마다 어울리는 배경음악도 따로 붙어 있습니다.
 
 | 테마 | 특징 |
 | --- | --- |
-| **기본** | 맑은 유리 독, 둥근 칸 |
-| **휠** | 화면 아래 반원 휠에 표지가 늘어서고, 스틱으로 돌려 고름 |
-| **목록** | 왼쪽에 제목 목록, 오른쪽에 표지·로고·게임 설명 |
-| **격자** | 칸마다 게임 배경과 로고, 한 줄 칸 수는 빠른 설정에서 |
+| **Dock** | 맑은 유리 독, 둥근 칸 |
+| **Wheel** | 화면 아래 반원 휠에 표지가 늘어서고, 스틱으로 돌려 고름 |
+| **List** | 왼쪽에 제목 목록, 오른쪽에 표지·로고·게임 설명 |
+| **Grid** | 칸마다 게임 배경과 로고, 한 줄 칸 수는 빠른 설정에서 |
 
 ![테마](docs/images/04_styles.png)
 
 ### 휠 — 세게 돌리면 룰렛
 뭘 할지 모르겠는 날엔 휠을 힘껏 돌려 보세요. 멈춘 자리에 「오늘은 이 게임!」이 뜹니다.
 
-![휠 테마](docs/images/05_wheel.png)
+![Wheel 테마](docs/images/05_wheel.png)
 
 ### 목록 — 제목은 왼쪽, 이야기는 오른쪽
 게임이 많아도 한눈에 보입니다. 세로형·가로형 표지 모두 크게 보이고, 게임 설명은 길면 저절로 천천히 내려갑니다.
 
-![목록 테마](docs/images/06_list.png)
+![List 테마](docs/images/06_list.png)
 
 ### 낮·밤 화면과 색
-낮의 놀이터 · 밤의 놀이터 · 시간 따라. 밤 색은 남색과 OLED 블랙 중에 고르고, 색상 팔레트는 기본 파랑과 네온(파랑×빨강)이 있습니다. 글꼴 다섯 가지에 내 TTF 글꼴도 쓸 수 있습니다.
+낮 · 밤 · 시간 따라. 밤 색은 남색과 OLED 블랙 중에 고르고, 색상 팔레트는 기본 파랑과 네온(파랑×빨강)이 있습니다. 글꼴 다섯 가지에 내 TTF 글꼴도 쓸 수 있습니다.
 
 ![낮·밤 화면과 색](docs/images/07_colors.png)
 
@@ -141,7 +141,7 @@ X는 메뉴, Y는 상세입니다. 즐겨찾기, 클리어 표시, 이 게임만
 ### 2. 처음 켠 다음에 해 두면 좋은 것
 - **에뮬레이터 연결** — 게임 화면의 기기 독에서 기기를 고른 채 **X**를 누르고, 그 기기를 열 에뮬레이터를 고릅니다. 게임이 안 켜지면 먼저 여기를 확인하세요.
 - **빈 그림 채우기** — 설정 → 게임 → **「빈 그림 받기」**를 누르면 ScreenScraper와 libretro 저장소에서 표지·로고·배경·영상·설명을 찾아 롬 옆에 저장합니다.
-- **테마 고르기** — 설정 → 디스플레이 → 테마에서 기본·휠·목록·격자 중 하나를 고릅니다. 낮·밤 화면, 색, 글꼴, 글자 크기도 여기 있습니다.
+- **테마 고르기** — 설정 → 디스플레이 → 테마에서 Dock·Wheel·List·Grid 중 하나를 고릅니다. 낮·밤 화면, 색, 글꼴, 글자 크기도 여기 있습니다.
 - **RetroAchievements 연결** — 설정 → 프로필 → 외부 서비스 연결에서 계정 이름과 웹 API 키를 넣으면 클리어한 게임에 메달이 붙습니다. 키는 [retroachievements.org/settings](https://retroachievements.org/settings) 아래쪽에 있습니다.
 - **단추 바꾸기** — 닌텐도식 배치(A·B 자리 바꿈)를 원하면 설정 → 패드에서 바꿉니다.
 
@@ -160,7 +160,7 @@ Roms/
 │   ├─ Dragon Quest VIII-logo.png   ← 로고
 │   ├─ Dragon Quest VIII-bg.png     ← 배경
 │   ├─ Dragon Quest VIII.mp4        ← 미리보기 영상
-│   └─ Dragon Quest VIII.txt        ← 게임 설명 (목록 테마)
+│   └─ Dragon Quest VIII.txt        ← 게임 설명 (List 테마)
 ├─ psp/
 ├─ psx/
 └─ snes/
@@ -276,7 +276,7 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo 칸
 | B | 취소 (게임 목록에서 기기 목록으로) |
 | X | 메뉴 (즐겨찾기 · 클리어 · 에뮬레이터 · 그림 · 숨기기) |
 | Y | 상세 (기기 · 파일 · 플레이 시간) |
-| L / R | 놀이터 · 게임 · 업적 · 설정 넘기기 (게임 목록에서는 기기 넘기기) |
+| L / R | 홈 · 게임 · 업적 · 설정 넘기기 (게임 목록에서는 기기 넘기기) |
 | SELECT | 게임 찾기 (초성 · 알파벳) |
 | L2 | 버튼 안내 |
 | R2 | 빠른 창 (시계 · 소리 · 오늘) |
@@ -329,8 +329,7 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo 칸
 - 기기 로고는 어느 기기의 게임인지 알아보기 위한 표시로만 씁니다. 소니, 닌텐도, 세가, NEC, 캡콤, SNK, 사미, 아타리, 코모도어, 싱클레어, 콜레코, Lexaloffle 등 각 회사와 MAME, FinalBurn Neo 프로젝트의 상표이며, 노리는 이들과 관계가 없습니다.
 - 기본 아바타는 [Microsoft Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji)(MIT License)입니다.
 - 게임 표지·로고·배경 그림의 권리는 각 회사에 있습니다.
-- 같이 넣은 다른 글꼴은 SIL Open Font License 1.1을 따릅니다: [Pretendard](https://github.com/orioncactus/pretendard).
-- 마루부리는 네이버 글꼴 라이선스를 따릅니다: [네이버 글꼴](https://hangeul.naver.com/font), © NAVER Corp. © NAVER Cultural Foundation Corp.
+- 같이 넣은 글꼴은 SIL Open Font License 1.1을 따릅니다: [Pretendard](https://github.com/orioncactus/pretendard), [마루부리](https://hangeul.naver.com/font)(© NAVER Corporation). 라이선스 전문은 앱의 설정 → 정보에 있습니다.
 - 그림 자동 받기는 [ScreenScraper](https://www.screenscraper.fr)와 [libretro-thumbnails](https://github.com/libretro-thumbnails/libretro-thumbnails)를 씁니다.
 
 ---

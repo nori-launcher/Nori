@@ -60,7 +60,7 @@ Choose a system in the system dock, then a game in the game dock. The game's bac
 ![Browsing](docs/images_en/03_library.png)
 
 ### Grid theme
-Every tile shows a game's background with its logo, so you see many games at once. Even systems with mixed cover shapes stay tidy. Set 3 to 6 tiles per row in Quick settings.
+Every tile shows a game's background with its logo, so you see many games at once. Even systems with mixed cover shapes stay tidy. Set 2 to 6 tiles per row in Quick settings.
 
 ![Grid theme](docs/images_en/grid.png)
 
@@ -69,7 +69,7 @@ One tap in Settings changes how you pick games, and each theme has its own backg
 
 | Theme | What it looks like |
 | --- | --- |
-| **Basic** | Clear glass docks, rounded tiles |
+| **Dock** | Clear glass docks, rounded tiles |
 | **Wheel** | Covers along a half-wheel at the bottom, spun with the stick |
 | **List** | Titles on the left; cover, logo and description on the right |
 | **Grid** | A background and logo on every tile; tiles per row in Quick settings |
@@ -87,7 +87,7 @@ Great for big libraries. Tall and wide box art both show large, and long descrip
 ![List](docs/images_en/06_list.png)
 
 ### Themes and colors
-Day, Night, or By time. Night comes in navy or OLED black, and the accent palette comes in Basic blue or Neon (blue × red). Five bundled fonts plus your own TTF.
+Day, Night, or By time. Night comes in navy or OLED black, and the accent palette comes in Default blue or Neon (blue × red). Five bundled fonts plus your own TTF.
 
 ![Themes and colors](docs/images_en/07_colors.png)
 
@@ -146,7 +146,7 @@ A short setup runs the first time you open Nori.
 ### 2. Worth doing next
 - **Set up emulators** — in the system dock, select a system and press **X** to choose which emulator opens it. If a game won't start, check this first.
 - **Fill missing art** — Settings → Games → **Fill missing art** finds box art, logos, backgrounds, videos and descriptions on ScreenScraper and the libretro repository, and saves them next to your ROMs.
-- **Choose a theme** — Settings → Display → Theme: Basic, Wheel, List or Grid. Day and night, colors, fonts and text size are here too.
+- **Choose a theme** — Settings → Display → Theme: Dock, Wheel, List or Grid. Day and night, colors, fonts and text size are here too.
 - **Link RetroAchievements** — Settings → Profile → Linked services: enter your username and Web API key and beaten games get a medal. Find your key near the bottom of [retroachievements.org/settings](https://retroachievements.org/settings).
 - **Remap buttons** — want a Nintendo-style layout (A and B swapped)? Change it in Settings → Controller.
 
@@ -333,8 +333,7 @@ Yes. It's designed for landscape and works with touch, but it's most comfortable
 - System logos are used only to identify which system a game belongs to. They are trademarks of Sony, Nintendo, Sega, NEC, Capcom, SNK, Sammy, Atari, Commodore, Sinclair, Coleco, Lexaloffle, the MAME and FinalBurn Neo projects and others, and Nori is not affiliated with them.
 - Default avatars are from [Microsoft Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji) (MIT License).
 - Box art, logos and backgrounds belong to their respective owners.
-- The other bundled fonts are under the SIL Open Font License 1.1: [Pretendard](https://github.com/orioncactus/pretendard).
-- MaruBuri is under the NAVER font license: [NAVER fonts](https://hangeul.naver.com/font), © NAVER Corp. © NAVER Cultural Foundation Corp.
+- The bundled fonts are under the SIL Open Font License 1.1: [Pretendard](https://github.com/orioncactus/pretendard), [MaruBuri](https://hangeul.naver.com/font) (© NAVER Corporation). The full license text is in the app under Settings → About.
 - Artwork downloads use [ScreenScraper](https://www.screenscraper.fr) and [libretro-thumbnails](https://github.com/libretro-thumbnails/libretro-thumbnails).
 
 ---
