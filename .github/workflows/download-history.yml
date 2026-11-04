@@ -1,0 +1,57 @@
+name: 다운로드 기록
+
+# 6시간마다 전체 다운로드 합계를 stats 브랜치의 stats/download_history.json 에 한 줄 더한다.
+# 깃허브는 누적 횟수만 주므로, 이 기록의 차이가 기간별 증가가 된다.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: stats
+      - name: 합계 기록
+        shell: python
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          import json, os
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+
+          req = Request(
+              "https://api.github.com/repos/${{ github.repository }}/releases?per_page=100",
+              headers={"Accept": "application/vnd.github+json", "Authorization": "Bearer " + os.environ["GH_TOKEN"]},
+          )
+          with urlopen(req, timeout=30) as res:
+              releases = json.load(res)
+          apks = [a for r in releases for a in r["assets"] if a["name"].lower().endswith(".apk")]
+          if not apks:
+              raise SystemExit("릴리스에서 APK 를 찾지 못했습니다")
+          update = sum(a["download_count"] for a in apks if a["name"].lower().endswith("-update.apk"))
+          total = sum(a["download_count"] for a in apks)
+          out = Path("stats/download_history.json")
+          history = json.loads(out.read_text(encoding="utf-8")) if out.exists() else []
+          at = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M")
+          history.append({"at": at, "fresh": total - update, "update": update, "total": total})
+          out.parent.mkdir(exist_ok=True)
+          out.write_text(json.dumps(history, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+          print(history[-1])
+      - name: 올리기
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats/download_history.json
+          git commit -m "다운로드 기록"
+          git pull --rebase origin stats
+          git push origin stats
