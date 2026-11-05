@@ -43,7 +43,7 @@
 
 ## What is Nori?
 
-- **A launcher.** Nori doesn't run games itself. It hands them to the emulators you already have (NetherSX2, PPSSPP, RetroArch and more).
+- **A launcher.** Nori doesn't run games itself. It hands them to the emulators you already have (NetherSX2, PPSSPP, hakuX, RetroArch and more).
 - **Built for a gamepad, end to end.** Made for Android handhelds like the Retroid Pocket and AYN Odin, and still works with touch on phones and tablets.
 - **Automatic artwork.** Point it at your ROM folder and it sorts games by system and matches box art, logos, backgrounds and preview videos.
 
@@ -187,6 +187,8 @@ Roms/
 | PSP | `psp` |
 | PlayStation Vita | `psvita` `vita` `psv` |
 | PlayStation | `psx` `ps1` `playstation` `ps` |
+| Xbox | `xbox` |
+| Xbox 360 | `xbox360` `x360` |
 | GameCube | `gc` `gamecube` `ngc` |
 | Wii | `wii` |
 | Wii U | `wiiu` |
@@ -276,6 +278,8 @@ Loose game folders and `.exe` files aren't supported. The `pc` folder is for MS-
 | PSP | PPSSPP, PPSSPP Gold |
 | PS Vita | Vita3K |
 | PS1 | DuckStation, ePSXe, FPse, FPseNG, ARMSX1 |
+| Xbox | hakuX, X1 BOX, Xenra |
+| Xbox 360 | aX360e, XenDroid, Xenra |
 | GameCube · Wii | Dolphin, Dolphin MMJR |
 | Wii U | Cemu |
 | Switch | Eden, Kenji-NX, Skyline |
@@ -292,6 +296,7 @@ Loose game folders and `.exe` files aren't supported. The `pc` folder is for MS-
 | Windows | RetroArch (DOSBox Pure), Winlator Cmod |
 | Other classic systems | RetroArch (download the cores inside RetroArch first) |
 
+- **Nori supports the Xbox emulator [hakuX](https://github.com/rfandango/hakuX).** Put `.iso` or `.xiso` files in the `xbox` folder, choose hakuX as the emulator for Xbox, and games open directly.
 - For an emulator that isn't listed, use "Choose another app" in the picker. "System default" asks which app to open each time.
 - To open just one game with a different emulator: game menu (X) → "Emulator for this game only".
 - Android apps (JoiPlay, regular games) can be added to the "Android" group and launched alongside everything else.

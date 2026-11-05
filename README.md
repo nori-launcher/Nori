@@ -39,7 +39,7 @@
 
 ## 노리는 이런 앱입니다
 
-- **런처입니다.** 게임을 직접 돌리지 않습니다. 이미 깔린 에뮬레이터(NetherSX2, PPSSPP, RetroArch 등)에 게임을 넘겨 띄워 줍니다.
+- **런처입니다.** 게임을 직접 돌리지 않습니다. 이미 깔린 에뮬레이터(NetherSX2, PPSSPP, hakuX, RetroArch 등)에 게임을 넘겨 띄워 줍니다.
 - **패드 하나로 끝까지** 쓸 수 있게 만들었습니다. 레트로이드 포켓, AYN 오딘처럼 패드가 달린 안드로이드 기기에 맞췄고, 휴대폰·태블릿에서도 손가락으로 씁니다.
 - **한국어가 기본**입니다. 초성으로 게임을 찾고, 한글 패치 롬도 그대로 씁니다.
 - 게임 파일과 에뮬레이터는 들어 있지 않습니다.
@@ -182,6 +182,8 @@ Roms/
 | PSP | `psp` |
 | PlayStation Vita | `psvita` `vita` `psv` |
 | PlayStation | `psx` `ps1` `playstation` `ps` |
+| Xbox | `xbox` |
+| Xbox 360 | `xbox360` `x360` |
 | GameCube | `gc` `gamecube` `ngc` |
 | Wii | `wii` |
 | Wii U | `wiiu` |
@@ -271,6 +273,8 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo 칸
 | PSP | PPSSPP, PPSSPP Gold |
 | PS Vita | Vita3K |
 | PS1 | DuckStation, ePSXe, FPse, FPseNG, ARMSX1 |
+| Xbox | hakuX, X1 BOX, Xenra |
+| Xbox 360 | aX360e, XenDroid, Xenra |
 | GameCube · Wii | Dolphin, Dolphin MMJR |
 | Wii U | Cemu |
 | Switch | Eden, Kenji-NX, Skyline |
@@ -288,6 +292,7 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo 칸
 | 윈도우 | RetroArch(DOSBox Pure), Winlator Cmod |
 | 그 밖의 고전기 | RetroArch (코어는 RetroArch 안에서 먼저 받아 두세요. 코어가 없으면 오류 없이 멈출 수 있습니다) |
 
+- **Xbox 에뮬레이터 [hakuX](https://github.com/rfandango/hakuX)를 지원합니다.** `xbox` 폴더에 `.iso`나 `.xiso` 파일을 넣고, Xbox 칸의 에뮬레이터를 hakuX로 고르면 바로 켜집니다.
 - 목록에 없는 에뮬레이터는 고르기 창의 「다른 앱 직접 고르기」로 정합니다. 「시스템 기본」은 실행할 때마다 열 앱을 묻습니다.
 - 게임 하나만 다른 에뮬레이터로 열고 싶으면 게임 메뉴(X) → 「이 게임만 에뮬레이터 바꾸기」.
 - 안드로이드 앱(조이플레이, 일반 게임 앱)도 「Android」 묶음에 넣어 같이 띄울 수 있습니다.
