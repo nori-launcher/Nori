@@ -215,6 +215,7 @@ Roms/
 | X68000 | `x68000` `x68k` |
 | PC-98 | `pc98` `pc9801` `pc-98` |
 | MS-DOS | `dos` `msdos` `pc` |
+| Windows | `windows` `win` `win95` `win98` `win9x` `winxp` `winlator` |
 | Atari 2600 | `atari2600` `a2600` |
 | Atari 7800 | `atari7800` `a7800` |
 | Atari Lynx | `atarilynx` `lynx` |
@@ -242,6 +243,28 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo
 
 `Roms/neogeo` works the same way. If everything is directly in `Roms/arcade`, you go straight to the game list. Arcade ROMs are identified by file name, so don't rename them. Download cores in RetroArch first: without the core, RetroArch can freeze without an error.
 
+### Windows games
+
+Put them in a `windows` folder under your ROM folder and they appear under Windows. Folder names like `win`, `win95`, `win98` and `winxp` also work. How a game opens depends on the file.
+
+**RetroArch + DOSBox Pure (bundles such as `.zip` and `.dosz`)**
+
+1. Install RetroArch.
+2. In RetroArch's core downloader, get `DOS (DOSBox-Pure)`.
+3. Put the game files in the `windows` folder.
+4. Rescan in Nori.
+
+If a metadata file (`metadata.pegasus.txt`) names an app and core, Nori follows it.
+
+**Winlator shortcuts (`.desktop`)**
+
+1. Install Winlator Cmod. The official Winlator can't be started by other apps.
+2. Install the game inside Winlator and check that it runs there.
+3. Export the game's shortcut as a `.desktop` file.
+4. Put the exported file in the `windows` folder and rescan in Nori.
+
+Loose game folders and `.exe` files aren't supported. The `pc` folder is for MS-DOS. This hasn't been tested with actual Windows games or the real Winlator app yet, so please report any problems.
+
 ## Systems and emulators
 
 ![Supported systems](docs/images_en/12_setup.png)
@@ -266,6 +289,7 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo
 | Dreamcast | Redream, Flycast |
 | Saturn | Yaba Sanshiro 2, Saturn.emu |
 | PICO-8 | PICO-8, Pixl8, Infinity |
+| Windows | RetroArch (DOSBox Pure), Winlator Cmod |
 | Other classic systems | RetroArch (download the cores inside RetroArch first) |
 
 - For an emulator that isn't listed, use "Choose another app" in the picker. "System default" asks which app to open each time.

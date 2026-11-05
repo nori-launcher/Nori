@@ -210,6 +210,7 @@ Roms/
 | X68000 | `x68000` `x68k` |
 | PC-98 | `pc98` `pc9801` `pc-98` |
 | MS-DOS | `dos` `msdos` `pc` |
+| Windows | `windows` `win` `win95` `win98` `win9x` `winxp` `winlator` |
 | Atari 2600 | `atari2600` `a2600` |
 | Atari 7800 | `atari7800` `a7800` |
 | Atari Lynx | `atarilynx` `lynx` |
@@ -237,6 +238,28 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo 칸
 
 `Roms/neogeo`처럼 바로 놓아도 같습니다. `Roms/arcade`에 한꺼번에 넣으면 칸 없이 바로 게임 목록이 나옵니다. 아케이드 롬은 파일 이름으로 게임을 알아보니 이름을 바꾸지 마세요.
 
+### 윈도우 게임
+
+롬 폴더 아래 `windows` 폴더에 넣으면 윈도우 칸에 모입니다. `win`, `win95`, `win98`, `winxp` 같은 폴더 이름도 읽습니다. 파일 종류에 따라 켜는 방식이 다릅니다.
+
+**RetroArch + DOSBox Pure (`.zip`, `.dosz` 같은 묶음)**
+
+1. RetroArch를 설치합니다.
+2. RetroArch의 코어 다운로더에서 `DOS (DOSBox-Pure)`를 받습니다.
+3. 게임 파일을 `windows` 폴더에 넣습니다.
+4. Nori에서 다시 훑습니다.
+
+메타데이터 파일(`metadata.pegasus.txt`)에 실행 앱과 코어가 적혀 있으면 그대로 따릅니다.
+
+**Winlator 바로가기 (`.desktop`)**
+
+1. Winlator Cmod를 설치합니다. 공식 Winlator는 다른 앱에서 게임을 켤 수 없습니다.
+2. Winlator 안에서 게임을 설치하고, 거기서 켜지는지 확인합니다.
+3. 게임 바로가기를 `.desktop` 파일로 내보냅니다.
+4. 내보낸 파일을 `windows` 폴더에 넣고 Nori에서 다시 훑습니다.
+
+`.exe` 파일이나 게임 폴더를 그대로 넣는 방식은 지원하지 않습니다. `pc` 폴더는 MS-DOS 칸입니다. 실제 윈도우 게임과 실제 Winlator로는 아직 확인하지 못했으니, 문제가 있으면 알려 주세요.
+
 ## 지원 기기와 에뮬레이터
 
 ![지원 기기](docs/images/12_setup.png)
@@ -262,6 +285,7 @@ Roms/arcade/fbneo/gunbird.zip    ← FinalBurn Neo 칸
 | Saturn | Yaba Sanshiro 2, Saturn.emu |
 | PICO-8 | PICO-8, Pixl8, Infinity |
 | 아케이드 | RetroArch, MAME4droid, NEO.emu, Flycast |
+| 윈도우 | RetroArch(DOSBox Pure), Winlator Cmod |
 | 그 밖의 고전기 | RetroArch (코어는 RetroArch 안에서 먼저 받아 두세요. 코어가 없으면 오류 없이 멈출 수 있습니다) |
 
 - 목록에 없는 에뮬레이터는 고르기 창의 「다른 앱 직접 고르기」로 정합니다. 「시스템 기본」은 실행할 때마다 열 앱을 묻습니다.
