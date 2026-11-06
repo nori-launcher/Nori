@@ -25,6 +25,11 @@
 </p>
 
 <p align="center">
+  <a href="https://www.youtube.com/watch?v=uuzb58fP-RA"><img src="https://img.youtube.com/vi/uuzb58fP-RA/maxresdefault.jpg" alt="Nori 2-minute intro video (YouTube)" width="70%"></a>
+  <br><a href="https://www.youtube.com/watch?v=uuzb58fP-RA"><b>▶ Watch the 2-minute intro (YouTube)</b></a>
+</p>
+
+<p align="center">
   <img src="docs/media/nori_roulette_en.gif" alt="Spinning the wheel hard turns it into a roulette that lands on a random game" width="100%">
   <br><sub>Spin the wheel hard and it turns into a roulette that picks today's game. Real in-app footage.</sub>
 </p>
