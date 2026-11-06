@@ -25,6 +25,11 @@
 </p>
 
 <p align="center">
+  <a href="https://www.youtube.com/watch?v=uuzb58fP-RA"><img src="https://img.youtube.com/vi/uuzb58fP-RA/maxresdefault.jpg" alt="Nori 2분 소개 영상 (유튜브)" width="70%"></a>
+  <br><a href="https://www.youtube.com/watch?v=uuzb58fP-RA"><b>▶ 2분 소개 영상 보기 (유튜브)</b></a>
+</p>
+
+<p align="center">
   <img src="docs/media/nori_roulette.gif" alt="휠을 세게 돌리면 룰렛처럼 돌다가 「오늘은 이 게임!」에 멈추는 노리 화면" width="100%">
   <br><sub>휠을 세게 돌리면 룰렛처럼 돌다가 오늘 할 게임에 멈춥니다. 실제 앱 화면입니다.</sub>
 </p>
