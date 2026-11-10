@@ -1,0 +1,13 @@
+{
+  "notices": [
+    {
+      "id": "2026-11-10-061",
+      "date": "2026-11-10",
+      "until": "2026-11-30",
+      "title_ko": "0.6.1 업데이트 안내",
+      "title_en": "About 0.6.1",
+      "body_ko": "조작 방법 변경\n\n• START/L2 (Nori 로고 터치) : 빠른 설정\n• R2 (프로필 터치) : 알림 패널\n• SELECT (돋보기 터치) : 검색창",
+      "body_en": "Controls have changed\n\n• START/L2 (tap the Nori logo) : Quick settings\n• R2 (tap your profile) : Notifications\n• SELECT (tap the magnifier) : Search"
+    }
+  ]
+}
