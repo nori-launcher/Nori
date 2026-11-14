@@ -16,6 +16,7 @@
 <p align="center">
   <a href="https://playnori.app"><b>🌐 홈페이지</b></a> ·
   <a href="../../releases/latest"><b>⬇ 받기</b></a> ·
+  <a href="https://discord.gg/uzNxETMUdH"><b>💬 Discord</b></a> ·
   <a href="#시작-안내">시작 안내</a> ·
   <a href="#폴더-준비">폴더 준비</a> ·
   <a href="#지원-기기와-에뮬레이터">지원 기기</a> ·
