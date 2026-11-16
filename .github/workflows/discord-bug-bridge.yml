@@ -59,8 +59,11 @@ jobs:
               // 일반 채널: 최근 메시지 (스레드 답글·봇 글 제외)
               const msgs = await api(`/channels/${channel}/messages?limit=50`);
               for (const m of msgs) {
-                if (m.author?.bot || m.type !== 0) continue;
-                const line = (m.content || '').split('\n').find(s => s.trim()) || '(내용 없음)';
+                // 봇 글·고정된 안내 글(「How to report a bug」 등)은 옮기지 않는다
+                if (m.author?.bot || m.type !== 0 || m.pinned) continue;
+                // 제목: 디스코드 꾸밈 글자를 뺀 첫 줄
+                const line = (m.content || '').split('
+').map(s => s.replace(/[*_`#>]/g, '').trim()).find(s => s) || '(내용 없음)';
                 posts.push({ id: m.id, title: line.slice(0, 80), msg: m, link: `https://discord.com/channels/${guild}/${channel}/${m.id}` });
               }
             }
