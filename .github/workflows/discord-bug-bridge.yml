@@ -19,7 +19,7 @@ jobs:
   bridge:
     runs-on: ubuntu-latest
     env:
-      CHANNEL_ID: "1571006229008875540"
+      CHANNEL_ID: "1572514289795862650"
     steps:
       - name: 옮기기
         uses: actions/github-script@v7
@@ -52,6 +52,8 @@ jobs:
               const archived = await api(`/channels/${channel}/threads/archived/public?limit=50`);
               const threads = [...active.threads.filter(t => t.parent_id === channel), ...archived.threads];
               for (const t of threads) {
+                // 고정된 안내 글(「버그 제보 방법」)은 옮기지 않는다
+                if ((t.flags ?? 0) & 2) continue;
                 const first = await api(`/channels/${t.id}/messages/${t.id}`).catch(() => null);
                 if (first) posts.push({ id: first.id, title: t.name, msg: first, link: `https://discord.com/channels/${guild}/${t.id}` });
               }
